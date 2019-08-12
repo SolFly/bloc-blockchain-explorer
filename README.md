@@ -4,7 +4,7 @@ Block explorer for DeroGold CryptoNote based cryptocurrency.
 
 #### Installation
 
-1) It takes data from daemon turtlecoind. It should be accessible from the Internet. Run turtlecoind with open port as follows:
+1) It takes data from daemon DeroGoldd. It should be accessible from the Internet. Run DeroGoldd with open port as follows (add your additional command line parameters if required for your configuration):
 ```bash
 ./DeroGoldd --enable-cors="*" --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=6969
 ```
