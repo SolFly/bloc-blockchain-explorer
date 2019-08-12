@@ -18,6 +18,7 @@ DeroGold Developers, TurtleCoin Developers.
 
 
 Devs:
+
     @devopsralf
 
 Donate: [TRTL] TRTLv2RCPuD7AaaVpQkRPF59MMLx5WW3qFxwJz4Doy7dHhNA6UuQjEpLL3rpUQS4RXdQn8fb4P1XC3K62GeJjGgG8DP9LNaTrNL
