@@ -1,22 +1,27 @@
-var api = 'http://cuveedego.czech.cloud:6969';
+//Remote-daemon JSON-RPC-API URL-address.
+//(by default, daemon RPC using port 17898, and P2P-port 17897 to syncronize blockchain)
+//Run daemon with following commands:
+//./Satorid --enable-cors="*" --enable_blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=17898
+//then do "port forwarding" for port 17898, get external IP, or LAN, or local IP, and use IP:PORT in next URL
+var api = 'http://192.168.0.156:17898';
+
 var donationAddress = "";
-var blockTargetInterval = 20; // enter the block interval in seconds
-var coinUnits = 100;  // enter in the amount of atomic units in 1 coin, eg. 100 shells = 1 trtl
-var totalSupply =  10000000000000000; // enter the total supply in atomic units
-var symbol = 'dego'; // enter the coin's ticker
+var blockTargetInterval = 300; // enter the block interval in seconds
+var coinUnits = 1000000000;  // enter in the amount of atomic units in 1 coin, eg. 100 shells = 1 trtl
+var totalSupply =  244000000; // enter the total supply in atomic units
+var symbol = 'SAU'; // enter the coin's ticker
 var refreshDelay = 20000;
 
 // pools stats by MainCoins
 var networkStat = {
- "dego": [
-	["pool.dego.semipool.com", "https://pool.dego.semipool.com:33301"],
-	["fastpool.xyz", "http://fastpool.xyz:3333"],
-	["publicnode.ydns.eu", "http://publicnode.ydns.eu:5420"],
+ "SAU": [
+	["Pool-Pay.com", "https://xau.pool-pay.com"],
+	["Walemo.com", "https://xau.walemo.com"],
  ]
 };
 
 var networkStat2 = {
-    "dego": [
+    "SAU": [
 	[""]
  ]
 };
