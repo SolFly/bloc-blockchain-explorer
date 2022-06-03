@@ -1,6 +1,6 @@
 <?php
 return array(
-        'api' => 'http://127.0.0.1:6969',
-        'blockTargetInterval' => 20,
-        'coinUnits' => 100
+        'api' => 'https://fastpool.xyz/bloc-exp-api/',
+        'blockTargetInterval' => 120,
+        'coinUnits' => 10000
 );
